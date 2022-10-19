@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url(/img/sfondo.jpg);
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    margin-top: 30px;
+    color: orange;
+}
+h2{
+    color: red;
+}
+img{
+    width: 70px;
+}
+.generator{
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 50px;
+    border: 1px solid lig;
+    border-radius: 10px;
+}
+.titolo{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: white;
+}
+#nome{
+    width: 80%;
+    height: 50px;
+    color: white;
+    margin: auto;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#cognome{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#colore{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#password{
+    width: 80%;
+    display: none;
+    margin: auto;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.unvail{
+    font-size: 0.9rem;
+    color: white;
+}
+.unvail:active + #password{
+    display: block;
+}
+.unvail:active{
+    display: none;
+}
