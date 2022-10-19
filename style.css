@@ -83,6 +83,7 @@ img{
 .unvail{
     font-size: 0.9rem;
     color: white;
+    cursor: pointer;
 }
 .unvail:active + #password{
     display: block;
