@@ -91,13 +91,18 @@ img{
     font-weight: 700;
 }
 .unvail{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: white;
     cursor: pointer;
 }
-.unvail:active + #password{
+label span{
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
+}
+label + input[type="checkbox"]:checked + #password{
     display: block;
 }
-.unvail:active{
-    display: none;
+label + input[type="checkbox"]{
+    display:none;
 }
