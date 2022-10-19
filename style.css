@@ -35,6 +35,16 @@ img{
     text-decoration: underline;
     color: white;
 }
+#buy{
+    padding: 20px;
+    font-size: 2rem;
+    color: orange;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
 #nome{
     width: 80%;
     height: 50px;
